@@ -1,1 +1,7 @@
-console.log("hello from backend");
+import connectDB from "./db/index.js";
+import { configDotenv } from "dotenv";
+
+
+configDotenv()
+
+connectDB()
